@@ -1,8 +1,13 @@
 $navbar-default-bg: green;
 
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+#white{
+  color: #fff;
+  font-weight: bold;
+}
 #logo{
   float: left;
   font-size: 1.7em;
@@ -30,7 +35,7 @@ $navbar-default-bg: green;
 }
 .btn-xlarge{
   font-size: 1.7em;
-  background-color:#FACDBE;
+  background-color:#F57F58;
 }
 footer{
   margin-top: 45px;
