@@ -1,4 +1,4 @@
-$navbar-default-bg: #FACDBE;
+$navbar-default-bg: green;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -17,7 +17,7 @@ $navbar-default-bg: #FACDBE;
 }
 
 .jumbotron{
-  background-image: asset-url('horses2.jpg');
+  background-image: asset-url('green.jpg');
   background-size: cover;
   height: 500px;
 }
@@ -37,8 +37,7 @@ footer{
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777;
-  margin-right: 10px;
-  margin-left: 10px;
+
 }
 footer a:hover{
   color: #222;
@@ -55,4 +54,9 @@ footer ul{
 footer ul li{
   float:left;
   margin-left:15px;
+  margin-right:15px;
+}
+dropdown-toggle{
+  font-weight: bold;
+  color: #fff;
 }
